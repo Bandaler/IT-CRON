@@ -19,6 +19,10 @@ a {
 
 main {
   height: 100vh;
+
+  @media(max-width: 992px) {
+    height: 100svh;
+  }
 }
 
 .container {}
@@ -171,6 +175,7 @@ header {
       object-fit: contain;
       width: 100%;
       height: 100%;
+      object-position: right;
     }
   }
 
@@ -184,7 +189,7 @@ header {
       object-fit: contain;
       width: 100%;
       height: 100%;
-      object-position: bottom;
+      object-position: bottom left;
     }
   }
 
@@ -198,6 +203,7 @@ header {
       object-fit: contain;
       width: 100%;
       height: 100%;
+      object-position: left;
     }
   }
 
